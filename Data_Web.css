@@ -1,0 +1,598 @@
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 60px;
+}
+
+
+section{
+    padding: 70px 0px;
+}
+
+/* PrimaryMenu Design Start here*/
+
+.primaryMenu {
+    overflow: hidden;
+}
+
+header#topMenu {
+    background: #0C0F38;
+    height: 115px;
+}
+.primaryMenu {
+    overflow: hidden;
+    height: 82px;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+    margin-top: 45px;
+}
+
+.menu {
+    float: left;
+}
+
+
+ul.mainMenuItem {
+    list-style: none;
+    margin-left: 425px;
+    padding-right: 30px;
+}
+
+ul.mainMenuItem li {
+    float: left;
+    padding: 0px 20px;
+    margin-top: 54px;
+}
+
+ul.mainMenuItem li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+ul.mainMenuItem li a:hover{
+    color: #FDD430 ;
+    
+}
+
+.active{
+    color: #FDD430 !important;
+}
+
+/* PrimaryMenu Design end here*/
+
+/* homeslider Design Start here*/
+
+#homeslider {
+    background: #0C0F38;
+    height: 618px;
+    padding: 0px;
+}
+.sliderContent {
+    overflow: hidden;
+    float: left;
+}
+
+.sliderDetails {
+    width: 450px;
+    color: white;
+    float: left;
+    margin-right: 20px;
+}
+
+.sliderDetails h1 {
+    font-size: 60px;
+    width: 405px;
+    letter-spacing: 0.05em;
+    line-height: 80px;
+    padding-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.sliderDetails h3 {
+    font-size: 41px;
+    color: #FDD434;
+    padding: 20px 0px;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sliderDetails p {
+    width: 470px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.sliderDetails button {
+    background: #ffff;
+    color: black;
+    font-size: 18px;
+    padding: 12px 41px;
+    border-radius: 1px;
+    border: none;
+    letter-spacing: -0.02em;
+    transition: 0.3s;
+}
+
+.sliderDetails button:hover{
+    background: #000000;
+    color:#fff;
+    cursor:pointer;
+    transform: scale();
+}
+
+.sliderImg {
+    float: left;
+    width: 620px;
+    margin-right: 37px;
+}
+
+.sliderImg img {
+    max-width: 100%;
+    padding: 0px 20px;
+    margin-top: 21px;
+}
+
+/* homeslider Design end here*/
+
+/* webSection Design Start here*/
+
+section#webSection {
+    background: #FFFFFF;
+    height: 820px;
+    overflow: hidden;
+}
+
+.wabWrapper {
+    overflow: hidden;
+    text-align: center;
+}
+
+.webContant h1 {
+    font-size: 45px;
+    color: #0c0f38;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.webContant img{
+    width: 550px;
+    margin-bottom: 50px;
+}
+
+.webContant p {
+    margin: auto;
+    width: 1011px;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.wabWrapper button a {
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    padding: 13px 43px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 2px;
+}
+
+.wabWrapper button {
+    outline: none;
+    border: none;
+    margin: 74px 1px 95px 0px;
+}
+
+/* webSection Design end here*/
+
+/* Services Section Desing Start here*/
+
+section#services {
+    overflow: hidden;
+    background: #0C0F38;
+    height: 972px;
+}
+.sboxWrapper {
+    overflow: hidden;
+    height: 1040px;
+}
+
+.sboxDetails {
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.sboxDetails h1 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: -8px;
+    padding-bottom: 15px;
+}
+
+.sboxDetails p {
+    font-size: 18px;
+    font-weight: 300;
+    width: 586px;
+    margin: auto;
+    line-height: 1.5em;
+    margin-bottom: 65px;
+}
+
+.singleBox{
+    width: 264px;
+    float: left;
+    margin-right: 30px !important;
+    text-align: center;
+    padding: 41px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 35px;
+    transition: 1s;
+}
+
+.SingleBox3rd .lastSingleBox{
+ margin-right: 0px;
+}
+.singleBox:hover {
+    color: #fff;
+    background: #8308EB;
+}
+
+.singleBox a {
+    background: #fff;
+    padding: 56px 19px 13px 18px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 17px !important;
+}
+
+
+.singleBox a img {
+    text-align: center;
+    margin: 8px 0px 0px 0px;
+}
+
+.singleBox h3 {
+    margin-top: 22px;
+    font-size: 25px;
+    line-height: 51.01px;
+    font-weight: 400;
+}
+
+.singleBox p {
+    font-size: 18px;
+    width: 274px;
+    margin: auto;
+    font-weight: 300;
+    line-height: 1.4em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    text-align: center;
+}
+
+button.SboxBtn {
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+button.SboxBtn a {
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 400;
+    padding: 13px 51px 13px 51px;
+    letter-spacing: 0.03em;
+    transition: 0.50s;
+}
+
+button.SboxBtn:hover a {
+    background: #8308EB;
+    color: #fff !important;
+}
+
+
+/* Services Section Desing End here*/
+
+/* Services Section Choose Start here*/
+
+section#ChooseBox {
+    overflow: hidden;
+    height: 600px;
+}
+
+.chooseWrapper {
+    overflow: hidden;
+
+}
+
+.chooseTitle h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Poppins;
+}
+
+.chooseTitle p {
+    text-align: center;
+    color: #272727;
+    font-weight: 200;
+    line-height: 26px;
+    font-size: 15.5px;
+    font-family: Poppins;
+    padding: 10px 0px 0px 0px;
+}
+
+
+.singleChoose{
+    overflow: hidden;
+    padding: 17px 10px 0px 10px;
+}
+
+.singlePost {
+    width: 310px;
+    float: left;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 17px;
+    padding: 15px;
+    box-shadow: 1px 1px 14px #b7b7b7b0;
+    margin-top: 15px;
+    margin-bottom: 26px;
+    margin-right: 25px;
+    transition: 1s;
+}
+
+.singlePost:hover {
+    transform: scale(1.1);
+}
+
+.singlePost:first-child {
+    margin-left: 18px;
+}
+
+.singlePost img {
+    padding: 15px 0px;
+}
+
+.singlePost h3 {
+    font-weight: 400;
+    font-size: 21px;
+    padding-bottom: 20px;
+    font-family: Poppins;
+}
+
+.singlePost p {
+    line-height: 1.50em;
+    padding: 0px 12px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.singleBtn {
+    width: 200px;
+    float: left;
+    text-align: center;
+    padding-left: 84px;
+    margin-right: 94px;
+}
+
+.singleBtn:last-child {
+    margin-right: 0px;
+}
+
+.singleBtn button {
+    border: none;
+    outline: none;
+    padding: 15px 57px;
+    background: #000;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 5px;
+}
+
+.singleBtn button a {
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+}
+
+.singleBtn button:hover {
+    background: #8308EB;
+    color: #ffff;
+}
+
+/* Services Section design End here
+
+
+/* Contact Section design start here*/
+
+.formWrapper {
+    overflow: hidden;
+    background: rgb(12, 15, 56);
+    border-radius: 30px;
+    padding: 40px 10px;
+    width: 510px;
+    margin: auto;
+}
+
+form.mainForm {
+    overflow: hidden;
+    padding: 10px 0px;
+    height: 420px;
+}
+
+form input {
+    overflow: hidden;
+    width: 74%;
+    margin-left: 48px;
+    padding: 17px 19px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+input[type="text"] {
+    margin-top: 32px;
+}
+
+textarea {
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 75.5%;
+    height: 65px;
+    margin-left: 48px;
+    padding: 10px 10px 10px 20px;
+    resize: none;
+    margin-bottom: 25px;
+}
+
+textarea::placeholder {
+    padding-top: 23px;
+    font-family: sans-serif;
+}
+
+input::placeholder {
+    padding-left: 4px;
+    margin-left: 3px;
+    font-family: sans-serif;
+}
+
+.sendBtn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sendBtn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sendBtn a {
+    text-decoration: none;
+    font-size: 18px;
+    background: rgb(255, 255, 255);
+    color: rgb(239, 66, 89);
+    padding: 14px 70px;
+    border-radius: 40px;
+    margin: auto;
+    border: none;
+    transition: all 0.5s ease 0s;
+}
+
+.sendBtn a:hover {
+    background: #e3e3e3;
+    transition: 1s ease;
+    color: #ef4259;
+}
+
+/* Contact Section design start here*/
+
+
+/* footer section design start here */
+
+footer#footer {
+    overflow: hidden;
+    background: rgb(12, 15, 56);
+    margin-top: 55px;
+    height: 627px;
+}
+
+.footerWrapper {
+    overflow: hidden;
+    padding-top: 266px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.footerDsc h3 {
+    font-size: 45px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 60px 0px 0px;
+    font-family: Poppins, sans-serif;
+}
+
+.footerDsc .para1 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 30px 0px;
+    font-family: Poppins, sans-serif;
+}
+
+.footerDsc p {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 0px 244px 60px;
+    font-family: Poppins, sans-serif;
+}
+
+.copyright {
+    background: rgb(255, 255, 255);
+    margin-top: 505px;
+    height: 62px;
+}
+
+.linkContent p, a {
+    text-decoration: none;
+    font-size: 19px;
+    padding: 18px 0;
+    color: #3c3c3c;
+    font-weight: 300;
+}
+
+.linkContent p, a {
+    text-decoration: none;
+    font-size: 19px;
+    padding: 18px 0px;
+    color: rgb(30, 30, 30);
+    font-weight: 300;
+    text-align: center;
+}
