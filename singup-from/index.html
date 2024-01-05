@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sing Up</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" placeholder="Name">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" placeholder="Email">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+
+                    <p class="password">Lost password <a href="#">Click Here!</a></p>
+                    <div class="btn-field">
+                        <button type="button" id="singupBtn">Sing up</button>
+                        <button type="button" id="singinBtn" class="disable">Sing in</button>
+                    </div>
+                    <p class="password homepageLink"><a href="../Data Web.html">Back To Page</a></p>
+                </div>
+            </form> 
+        </div>
+    </div>
+
+    <script>
+        let singupBtn = document.getElementById("singupBtn");
+        let singinBtn = document.getElementById("singinBtn");
+        let nameField = document.getElementById("nameField");
+        let title = document.getElementById("title");
+
+
+        singinBtn.onclick = function() {
+            nameField.style.maxHeight = "0";
+            title.innerHTML = "Sing In";
+            singupBtn.classList.add("disable");
+            singinBtn.classList.remove("disable");
+        }
+
+        singupBtn.onclick = function() {
+            nameField.style.maxHeight = "60px";
+            title.innerHTML = "Sing Up";
+            singupBtn.classList.remove("disable");
+            singinBtn.classList.add("disable");
+        }
+
+    </script>
+</body>
+</html>
