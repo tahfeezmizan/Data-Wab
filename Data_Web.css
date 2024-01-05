@@ -21,7 +21,7 @@
 
 
 section{
-    padding: 70px 0px;
+    padding: 70px 0px !important;
 }
 
 /* PrimaryMenu Design Start here*/
@@ -146,7 +146,7 @@ ul.mainMenuItem li a:hover{
 .sliderImg {
     float: left;
     width: 620px;
-    margin-right: 37px;
+    margin-left: 25px;
 }
 
 .sliderImg img {
@@ -191,7 +191,7 @@ section#webSection {
     font-weight: 400;
 }
 
-.wabWrapper button a {
+.wabWrapper .webBtn a {
     text-transform: uppercase;
     text-decoration: none;
     background: #000;
@@ -203,7 +203,7 @@ section#webSection {
     border-radius: 2px;
 }
 
-.wabWrapper button {
+.wabWrapper .webBtn {
     outline: none;
     border: none;
     margin: 74px 1px 95px 0px;
@@ -513,7 +513,8 @@ input::placeholder {
 
 .sendBtn a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 500;
     background: rgb(255, 255, 255);
     color: rgb(239, 66, 89);
     padding: 14px 70px;
@@ -576,7 +577,7 @@ footer#footer {
 
 .copyright {
     background: rgb(255, 255, 255);
-    margin-top: 505px;
+    margin-top: 515px;
     height: 62px;
 }
 
